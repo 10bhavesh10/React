@@ -1,0 +1,158 @@
+.esg-goals {
+    max-width: 1000px;
+    margin: 80px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.esg-goals>p {
+    padding: 20px;
+    margin: 0
+}
+
+.esg-goals .esg-goals-category {
+    width: auto;
+    background-color: #00a8e2;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 3rem
+}
+
+.esg-goals .esg-goal-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.esg-goals .esg-goal-headers .esg-goal-header {
+    font-weight: bold;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px 20px;
+    background-color: #eee
+}
+
+.esg-goals .esg-goal-headers .esg-goal-header span {
+    font-weight: normal;
+    font-size: 1.5rem
+}
+
+.esg-goals .esg-goal-set {
+    border-bottom: 2px solid #eee
+}
+
+.esg-goals .esg-goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row
+}
+
+.esg-goals .esg-goal>* {
+    padding: 20px
+}
+
+.esg-goals .esg-goal .esg-goal-bar {
+    width: 100%;
+    background: #eee
+}
+
+.esg-goals .esg-goal .esg-goal-bar .esg-goal-bar-filled {
+    width: 45%;
+    background-color: #00a8e2;
+    color: #fff;
+    display: flex;
+    justify-content: center
+}
+
+.esg-goals .esg-goal .esg-goal-bar .esg-goal-bar-filled span {
+    padding: 20px
+}
+
+.esg-goals .esg-goal .esg-goal-text {
+    font-weight: normal !important
+}
+
+.esg-goals .esg-goal .esg-goal-measure p {
+    font-weight: bold;
+    margin: 0
+}
+
+.esg-goals .esg-goal .esg-goal-name p strong {
+    font-size: 2rem
+}
+
+.esg-goals .esg-goal.esg-sub-goal .esg-goal-name p {
+    padding-left: 10%
+}
+
+.esg-goals .esg-col-15 {
+    width: 15%
+}
+
+@media only screen and (max-width:768px) {
+    .esg-goals .esg-col-15 {
+        width: 20%
+    }
+}
+
+.esg-goals .esg-col-55 {
+    width: 55%
+}
+
+@media only screen and (max-width:768px) {
+    .esg-goals .esg-col-55 {
+        width: 30%
+    }
+}
+
+.esg-goals .esg-col-30 {
+    width: 30%
+}
+
+@media only screen and (max-width:768px) {
+    .esg-goals .esg-col-30 {
+        width: 50%
+    }
+}
+
+.esg-goals.esg-blue .esg-goals-category,
+.esg-goals.esg-blue .esg-goal-bar-filled {
+    background-color: #00a8e2 !important
+}
+
+.esg-goals.esg-brown .esg-goals-category,
+.esg-goals.esg-brown .esg-goal-bar-filled {
+    background-color: #3c0010 !important
+}
+
+.esg-goals.esg-green .esg-goals-category,
+.esg-goals.esg-green .esg-goal-bar-filled {
+    background-color: #94c240 !important
+}
+
+.esg-goals.esg-orange .esg-goals-category,
+.esg-goals.esg-orange .esg-goal-bar-filled {
+    background-color: #eb5d15 !important
+}
+
+.esg-goals.esg-purple .esg-goals-category,
+.esg-goals.esg-purple .esg-goal-bar-filled {
+    background-color: #814594 !important
+}
+
+.esg-goals.esg-teal .esg-goals-category,
+.esg-goals.esg-teal .esg-goal-bar-filled {
+    background-color: #00aea4 !important
+}
+
+.esg-goals.esg-red .esg-goals-category,
+.esg-goals.esg-red .esg-goal-bar-filled {
+    background-color: #e30613 !important
+}

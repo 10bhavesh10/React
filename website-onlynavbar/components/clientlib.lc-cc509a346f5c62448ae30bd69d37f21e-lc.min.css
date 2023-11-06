@@ -1,0 +1,586 @@
+.right-nav input[type=text] {
+    padding: 6px 16px;
+    margin-top: 25px;
+    font-size: 17px;
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
+    border-radius: 30px;
+    width: 100%;
+    padding-right: 33px;
+    outline: 0;
+    margin-right: -20px
+}
+
+.search-suggestions {
+    display: none
+}
+
+.search-suggestions.yui-ac {
+    background-color: #fff;
+    box-shadow: 0 0 15.2px .8px rgb(100 100 100 / 48%);
+    height: 300px;
+    margin-top: -12px;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-left: 10px
+}
+
+div#autocomplete {
+    top: 0 !important
+}
+
+span#suggest-search {
+    font-weight: 800
+}
+
+@media screen and (max-width:400px) {
+    #suggest-search {
+        display: table-column
+    }
+}
+
+.suggested-searches .keywords>div {
+    cursor: pointer;
+    margin-bottom: 1rem
+}
+
+.yui-ac-bd ul li {
+    cursor: pointer
+}
+
+body.hershey-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.cadbury-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.kisses-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.kitkat-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.reese-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.twizzlers-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.corporate-base-theme .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.high-contrast-mode .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #333
+}
+
+body.branch-high-contrast-mode .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #333
+}
+
+body.pelon-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.chipits-primary div.footer .social-follow ul li a i {
+    color: #fff8d6
+}
+
+body.chipits-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.crayon-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.oh-henry-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.chocolate-world-base-theme .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #b00060
+}
+
+body.sofit-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.dots-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.lilys-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.honest-primary .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i {
+    color: #003594
+}
+
+body.hershey-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #e70
+}
+
+body.cadbury-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.kisses-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.kitkat-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.reese-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #e24300
+}
+
+body.twizzlers-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #b1e3e3
+}
+
+body.corporate-base-theme .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #00a8e1
+}
+
+body.high-contrast-mode .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.branch-high-contrast-mode .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.pelon-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #b1e3e3
+}
+
+body.chipits-primary div.footer .social-follow ul li a i {
+    color: #fff8d6
+}
+
+body.chipits-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.crayon-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.oh-henry-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.chocolate-world-base-theme .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #3f000b
+}
+
+body.sofit-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+body.dots-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #e70
+}
+
+body.lilys-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #e70
+}
+
+body.honest-primary .global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #553b33
+}
+
+.aa-Panel {
+    margin-top: 3px !important
+}
+
+.has-alert .global-search-bar__container.active {
+    top: 5.6rem
+}
+
+@media screen and (min-width:992px) {
+    .has-alert .global-search-bar__container.active {
+        top: 7rem
+    }
+}
+
+.global-search-bar__container {
+    width: 0;
+    transition: width .2s;
+    top: 0;
+    z-index: -1
+}
+
+@media screen and (max-width:991.9px) {
+    .global-search-bar__container {
+        right: 0
+    }
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container {
+        right: 10rem;
+        max-width: 70%
+    }
+}
+
+@media screen and (min-width:1260px) {
+    .global-search-bar__container {
+        max-width: 100rem;
+        right: calc((100% - 1210px)/2 - 5rem)
+    }
+}
+
+@media screen and (min-width:681px) {
+    .global-search-bar__container {
+        position: fixed;
+        overflow: hidden
+    }
+}
+
+.global-search-bar__container.active {
+    width: 100%;
+    overflow: auto;
+    padding: 1rem;
+    z-index: 1001;
+    top: 0;
+    height: 100vh
+}
+
+.global-search-bar__container .global-search-bar {
+    width: 100%;
+    position: relative;
+    display: none
+}
+
+.active.global-search-bar__container .global-search-bar {
+    display: block
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont {
+    z-index: 13;
+    width: 100%;
+    box-shadow: 0 0 15.2px .8px rgba(100, 100, 100, 0.25);
+    border-radius: 5rem
+}
+
+@media screen and (min-width:681px) {
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont {
+        position: relative
+    }
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-search,
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close {
+    position: absolute;
+    top: 1.1rem;
+    left: 1rem;
+    color: #003594;
+    font-size: 1.5rem;
+    cursor: pointer
+}
+
+@media screen and (min-width:992px) {
+
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-search,
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close {
+        top: 1.65rem;
+        left: 2rem
+    }
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-search:focus {
+    text-decoration: underline;
+    left: 1.8rem
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-search:focus i {
+    font-size: 120%
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close {
+    right: 1rem;
+    left: auto;
+    border-bottom: solid 1px transparent
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close {
+        right: 2rem
+    }
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close:focus,
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close:hover {
+    border-bottom: solid 1px #007bbd
+}
+
+@media screen and (min-width:992px) {
+
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close:focus i,
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont .global-search-bar__icon-close:hover i {
+        text-decoration: none
+    }
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i.fa-times {
+    display: none
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i.fa-times span {
+    display: none;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin: 0 1rem;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.35rem
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont i.fa-times span {
+        display: inline-block
+    }
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont input {
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 50px;
+    padding-left: 3.5rem;
+    padding-right: 3rem;
+    background-color: #fff;
+    font-size: 1.2rem
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont input {
+        height: 5.5rem;
+        padding-left: 4.5rem;
+        padding-right: 10rem;
+        font-size: 1.4rem
+    }
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by {
+    display: none;
+    position: absolute;
+    z-index: 12;
+    top: 2rem;
+    padding-top: 3.5rem;
+    margin-left: 0;
+    width: 100%;
+    background-color: #f6f6f6;
+    color: #333;
+    box-shadow: 0 0 15.2px .8px rgba(100, 100, 100, 0.48)
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by>div {
+    padding: 0 2.5rem
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container .global-search-bar .global-search-bar__result-by {
+        top: 3rem;
+        padding-top: 4.5rem
+    }
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label {
+    display: block;
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span {
+    background-color: #e70;
+    border: 0
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label input:checked~span i {
+    display: inline-block;
+    top: .4rem;
+    left: .35rem
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label input:hover~span,
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label input:focus~span {
+    box-shadow: 0 0 5px 0 #999
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label>span:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    background-color: #fff;
+    border: 2px solid #cfcfcf;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: null;
+    flex-flow: row wrap
+}
+
+.global-search-bar__container .global-search-bar .global-search-bar__result-by label>span:last-child i {
+    color: #fff;
+    display: none;
+    font-size: .9rem
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container .global-search-bar .global-search-bar__result-by label>span:last-child {
+        top: 0
+    }
+}
+
+.global-search-bar__container .global-search-bar .h6 {
+    display: block;
+    margin-bottom: 2rem
+}
+
+.global-search-bar__container .suggested-searches {
+    display: none
+}
+
+.global-search-bar__container .suggested-searches .h6 {
+    margin-bottom: 1rem
+}
+
+.global-search-bar__container .suggested-searches .keywords>div {
+    cursor: pointer;
+    margin-bottom: 1rem
+}
+
+.global-search-bar__container .suggested-searches span {
+    color: #333
+}
+
+.global-search-bar__container .suggested-searches span:hover {
+    font-weight: bold
+}
+
+.global-search-bar__container .suggested-searches i {
+    color: #e70;
+    margin-right: 1rem
+}
+
+.global-search-bar__container .keywords {
+    position: static !important
+}
+
+.global-search-bar__container .keywords ul {
+    padding: 0
+}
+
+.global-search-bar__container .keywords ul>li {
+    text-align: left;
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid transparent
+}
+
+.global-search-bar__container .keywords ul>li:before {
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: unset;
+    content: "\f002";
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #e70;
+    position: relative;
+    top: .2rem;
+    left: -1rem
+}
+
+.global-search-bar__container .keywords .yui-ac-shadow {
+    display: none
+}
+
+.global-search-bar__container .keywords .yui-ac-highlight {
+    border-bottom: 1px solid #3c131c
+}
+
+:root {
+    --aa-base-z-index: 99999999;
+    --aa-primary-color-rgb: 0
+}
+
+.global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont input.aa-Input {
+    padding-left: 0
+}
+
+@media screen and (min-width:992px) {
+    .global-search-bar__container .global-search-bar>.global-search-bar__keyword-cont input.aa-Input {
+        padding-left: 1.5rem
+    }
+}
+
+.global-search-bar__container .search-box-wrapper .searchbox,
+.global-search-bar__container .search-box-wrapper .autocomplete {
+    width: 100%
+}
+
+.global-search-bar__container .search-box-wrapper .autocomplete .aa-Autocomplete {
+    padding: 0 2rem
+}
+
+.global-search-bar__container .search-box-wrapper .autocomplete .aa-Autocomplete .aa-Form {
+    background-color: transparent;
+    border: 0
+}
+
+.global-search-bar__container .search-box-wrapper .autocomplete .aa-Autocomplete .aa-InputWrapper {
+    width: calc(80% - 5rem)
+}
+
+.global-search-bar__container .search-box-wrapper .autocomplete button.aa-ClearButton:before {
+    content: attr(clear-data-text);
+    font-size: 11px;
+    font-weight: 900
+}
+
+.global-search-bar__container .search-box-wrapper .autocomplete .aa-Label svg,
+.global-search-bar__container .search-box-wrapper .autocomplete .aa-LoadingIndicator svg {
+    color: #003594
+}
+
+.aa-Panel {
+    z-index: var(--aa-base-z-index)
+}
+
+@media only screen and (min-width:681px) and (max-width:991px) {
+    .has-alert .global-search-bar__container.active {
+        top: 6.6rem
+    }
+}

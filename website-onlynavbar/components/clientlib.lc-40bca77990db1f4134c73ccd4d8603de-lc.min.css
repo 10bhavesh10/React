@@ -1,0 +1,300 @@
+.corporate-footer-cmp {
+    width: 100%;
+    padding: 0 2.5rem;
+    max-width: 120rem;
+    margin: auto
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp {
+        padding: 0
+    }
+}
+
+.corporate-footer-cmp__container {
+    padding: 1.5rem
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp__container {
+        padding: 5rem 2.5rem 3rem 2.5rem
+    }
+}
+
+.corporate-footer-cmp__container .col-xs-12 {
+    padding: 0;
+    text-align: center
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp__container .col-xs-12 {
+        text-align: left;
+        padding: 0 2.5rem
+    }
+}
+
+.corporate-footer-cmp__external-links-2 {
+    margin-bottom: 2rem
+}
+
+.corporate-footer-cmp__external-links-2>.external-links {
+    border-bottom: .2rem solid #3f000b;
+    padding-bottom: 1rem
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp__external-links-2>.external-links {
+        border: 0
+    }
+}
+
+.corporate-footer-cmp .external-links ul>li>a {
+    font-size: 1.5rem;
+    color: #3f000b;
+    border: 0;
+    line-height: 2.5
+}
+
+.corporate-footer-cmp .quick-links ul>li>a,
+.corporate-footer-cmp .utility-links ul>li>a {
+    font-size: 1.3rem;
+    color: #707070;
+    border: 0;
+    line-height: 2.3
+}
+
+.corporate-footer-cmp .quick-links ul>li>a:hover,
+.corporate-footer-cmp .utility-links ul>li>a:hover,
+.corporate-footer-cmp .external-links ul>li>a:hover {
+    text-decoration: underline;
+    text-underline-offset: .5rem
+}
+
+.corporate-footer-cmp .corporate-footer-cmp__copyright>.copyright-text>span {
+    font-size: 1.3rem;
+    color: #707070;
+    line-height: 2.3;
+    font-weight: 700;
+    font-family: 'TT Norms Pro', sans-serif
+}
+
+.corporate-footer-cmp .socials__logo-container,
+.corporate-footer-cmp .socials__list {
+    text-align: center
+}
+
+.corporate-footer-cmp .socials__logo-container>a>img {
+    max-height: 7.5rem
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp .socials__logo-container>a>img {
+        height: 7.5rem
+    }
+}
+
+.corporate-footer-cmp .socials__logo-container>a {
+    border: 0
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp .socials__logo-container {
+        margin-top: 1rem
+    }
+}
+
+.corporate-footer-cmp .socials__list>li {
+    display: inline-block;
+    padding: .8rem
+}
+
+.corporate-footer-cmp .socials__list>li>a {
+    border: 0;
+    font-size: 2.1rem;
+    color: #3f000b
+}
+
+.corporate-footer-cmp .contrast-toggle-container {
+    border: 0
+}
+
+.corporate-footer-cmp .contrast-toggle-container .switch-status span {
+    color: #707070;
+    font-size: 1.5rem;
+    font-weight: 500
+}
+
+@media screen and (min-width:992px) {
+    .corporate-footer-cmp__social-links {
+        width: 22%
+    }
+
+    .corporate-footer-cmp__external-links-1 {
+        width: 21%
+    }
+
+    .corporate-footer-cmp__external-links-1.col-xs-12 {
+        padding-left: 6rem
+    }
+
+    .corporate-footer-cmp__external-links-1 .external-links {
+        padding-left: 2rem
+    }
+
+    .corporate-footer-cmp__external-links-2 {
+        width: 22%
+    }
+
+    .corporate-footer-cmp__quick-links {
+        width: 35%;
+        margin-bottom: 2.5rem
+    }
+
+    .corporate-footer-cmp__quick-links .quick-links {
+        border-left: .2rem solid #3f000b;
+        padding-left: 3.5rem
+    }
+
+    .corporate-footer-cmp__utility-links {
+        width: 65%
+    }
+
+    .corporate-footer-cmp__utility-links .utility-links ul>li {
+        display: inline-block;
+        padding-right: 2.5rem
+    }
+
+    .corporate-footer-cmp__copyright {
+        width: 35%
+    }
+
+    .corporate-footer-cmp .contrast-toggle-container {
+        padding: 2rem 0
+    }
+
+    .corporate-footer-cmp .socials__list {
+        padding-top: 1rem;
+        white-space: nowrap
+    }
+}
+
+.contrast-toggle-container {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid #553b33
+}
+
+@media screen and (min-width:992px) {
+    .contrast-toggle-container {
+        padding: 0;
+        border-bottom: 0
+    }
+
+    .contrast-toggle-container.big-brand .switch-status {
+        text-align: left
+    }
+}
+
+.switch-status {
+    text-align: center;
+    white-space: nowrap
+}
+
+@media screen and (min-width:992px) {
+    .switch-status {
+        text-align: left
+    }
+}
+
+.switch-status .switch {
+    position: relative;
+    display: inline-block;
+    width: 4.5rem;
+    height: 1.9rem;
+    bottom: .2rem;
+    vertical-align: middle
+}
+
+.switch-status .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0
+}
+
+.switch-status .switch input:hover+.slider,
+.switch-status .switch input:checked:hover+.slider,
+.switch-status .switch input:focus+.slider,
+.switch-status .switch input:checked:focus+.slider {
+    background-color: #9f7f85
+}
+
+.switch-status .switch input:checked+.slider {
+    background-color: #007bbd
+}
+
+.switch-status .switch input:focus+.slider {
+    box-shadow: 0 0 1px #007bbd
+}
+
+.switch-status .switch input:checked+.slider::before {
+    -webkit-transform: translateX(2.7rem);
+    -ms-transform: translateX(2.7rem);
+    transform: translateX(2.7rem)
+}
+
+.switch-status .switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ededed;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid #3f000b
+}
+
+.switch-status .switch .slider::before {
+    position: absolute;
+    content: '';
+    height: 1.3rem;
+    width: 1.3rem;
+    left: .2rem;
+    bottom: .2rem;
+    background-color: #3f000b;
+    transition: .4s
+}
+
+.switch-status .switch .slider.round {
+    border-radius: 3.4rem
+}
+
+.switch-status .switch .slider.round::before {
+    border-radius: 50%
+}
+
+.switch-status span {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'TT Norms Pro', sans-serif
+}
+
+.switch-status span span {
+    padding: 0 .5rem;
+    text-decoration: underline;
+    display: inline-block;
+    width: 3rem;
+    font-weight: bold
+}
+
+@media screen and (min-width:992px) {
+    .switch-status {
+        padding: 0
+    }
+
+    .switch-status .switch {
+        bottom: 0
+    }
+}

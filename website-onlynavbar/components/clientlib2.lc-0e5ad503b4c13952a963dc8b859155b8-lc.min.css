@@ -1,0 +1,599 @@
+@media print {
+    body {
+        margin: 2rem;
+        font-size: 16px !important
+    }
+
+    body * {
+        margin: 0;
+        color: #000 !important;
+        background-color: transparent !important;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 16px !important;
+        zoom: 100%
+    }
+
+    .root {
+        min-height: auto;
+        margin: 2rem 0;
+        padding: 2.5rem;
+        padding-top: 0;
+        break-inside: avoid;
+        border: 1px solid #ccc;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone
+    }
+
+    a {
+        color: #333;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto
+    }
+
+    .ingredients-and-directions {
+        zoom: unset;
+        margin-top: -8px
+    }
+
+    .hub-navigation-cmp {
+        display: block;
+        position: relative
+    }
+
+    .hub-navigation-cmp .nav-header {
+        position: relative;
+        background: transparent;
+        padding: 0;
+        box-shadow: none;
+        min-height: auto;
+        display: block;
+        grid-template-columns: unset;
+        grid-template-rows: unset;
+        gap: unset;
+        align-items: unset
+    }
+
+    .hub-navigation-cmp .nav-header .menu-logo {
+        margin: 1.3rem 0 0;
+        display: inline-block;
+        text-align: left
+    }
+
+    .hub-navigation-cmp .nav-header a img {
+        max-height: none;
+        max-width: 147px;
+        width: 100%
+    }
+
+    .add-garnish,
+    .hub-navigation-cmp .nav-header .menu-buttons,
+    .image-container.cropped-image:empty,
+    .tags,
+    div#onetrust-consent-sdk,
+    .ready-recipe,
+    .ingredient-action,
+    .share-nav,
+    .ratings-and-reviews.parbase.section,
+    .alert-banner-component,
+    .alert-banner,
+    *.customized-angle::before,
+    .nutritional-rest,
+    .hub-navigation-cmp .nav-header .search-button,
+    .global-search-bar-wrapper,
+    .hub-navigation-cmp .mega,
+    .ingredients-and-directions .time-summary .row h2,
+    .recipe-craft-overview .details h3,
+    .recipe-craft-overview span.label i {
+        display: none !important
+    }
+
+    .recipe-craft-overview span.label {
+        color: transparent !important;
+        background: #fff;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        text-align: left
+    }
+
+    .recipe-craft-overview h1 {
+        font-size: 2.8rem !important;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1
+    }
+
+    .cmp-container [data-bv-show='rating_summary'],
+    .cmp-container [data-bv-show='inline_rating'] {
+        text-align: left !important;
+        margin-top: 1.2rem
+    }
+
+    .recipe-craft-overview .details {
+        padding: 12px 0 20px 0
+    }
+
+    .recipe-craft-overview .rating {
+        text-align: center;
+        font-size: 1rem;
+        grid-row-start: 2;
+        grid-column-start: 1
+    }
+
+    .owl-stage {
+        transform: none !important;
+        transition: none !important
+    }
+
+    .owl-carousel .owl-stage {
+        position: relative;
+        -ms-touch-action: none !important;
+        touch-action: none;
+        width: auto !important
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: none;
+        touch-action: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 100% !important
+    }
+
+    .recipe-craft-overview .item-contain-image {
+        position: relative
+    }
+
+    .recipe-craft-overview {
+        width: 100%
+    }
+
+    .recipe-craft-overview .description {
+        padding: 0
+    }
+
+    .recipe-craft-overview .description *:last-child {
+        margin-bottom: 1.4rem
+    }
+
+    .recipe-craft-overview .details .details-content dl div .h4,
+    .recipe-craft-overview .details .details-content dl div .h6 {
+        font-size: 12px !important
+    }
+
+    .recipe-craft-overview .details .details-content dl div {
+        padding: 0;
+        border-bottom: 1px solid #ccc;
+        width: auto;
+        border-right: 0;
+        margin-bottom: 10px
+    }
+
+    .recipe-craft-overview .details dt i {
+        margin-right: .5rem;
+        text-align: left;
+        font-size: 12px !important
+    }
+
+    .recipe-craft-overview .details .details-content dl div:last-child {
+        border: 0
+    }
+
+    .recipe-craft-overview .desc-section {
+        min-height: auto;
+        grid-column-start: 1;
+        grid-column-end: 2
+    }
+
+    .directions {
+        margin: 0 0 0 2rem !important
+    }
+
+    .directions .direction-detail.divider:first-of-type {
+        padding-top: 10px
+    }
+
+    .directions .direction-detail.divider {
+        border-bottom: 1px solid #ccc !important;
+        margin: 0 0 0 1rem !important;
+        display: grid;
+        grid-template-columns: 12% 88%;
+        padding: 2rem 0;
+        page-break-inside: avoid;
+        break-inside: avoid
+    }
+
+    .directions .direction-detail.divider .description p {
+        font-size: 18px !important
+    }
+
+    .directions .direction-detail:first-child {
+        padding-top: 12px
+    }
+
+    .directions .direction-detail:last-child {
+        padding-bottom: 18px
+    }
+
+    .ingredients-and-directions .time-summary .row {
+        margin: 0;
+        width: 100%;
+        display: block
+    }
+
+    .ingredients-and-directions .col-md-6.col-xs-12 {
+        width: 100%
+    }
+
+    .recipe-craft-overview .details h3 {
+        padding-bottom: 12px;
+        padding-top: 12px;
+        text-align: left
+    }
+
+    .recipe-craft-overview .details .details-content dl {
+        display: block;
+        width: 100%
+    }
+
+    .details-content dl div dt.h6,
+    .details-content dl div dd.h4 {
+        display: inline
+    }
+
+    .ingredients-and-directions>.row {
+        padding-top: 1rem !important;
+        display: grid;
+        grid-template-columns: 33% 67%
+    }
+
+    .ingredients {
+        margin: 0 auto
+    }
+
+    .ingredients-comp h3 {
+        padding-top: 0
+    }
+
+    .ingredients ul li {
+        padding: 0
+    }
+
+    .column-2 {
+        width: 40%
+    }
+
+    .column-3 {
+        width: 60%
+    }
+
+    .ingredients .column-3 {
+        padding-bottom: 8px !important
+    }
+
+    .ingredient-item .row {
+        min-height: auto !important
+    }
+
+    .ingredients>ul:first-child {
+        border-width: 1px;
+        margin: 0;
+        padding: 1.5rem 1.5rem 0
+    }
+
+    .key-ingredient-list .ingredient-item .row .ingredient-amount {
+        padding-left: 0
+    }
+
+    .ingredients>ul:first-child * {
+        font-size: 1.3rem !important
+    }
+
+    .key-ingredient-list .ingredient-item .row .ingredient-amount span.h4 {
+        font-family: 'Lato', sans-serif !important
+    }
+
+    .key-ingredient-list .ingredient-item .row .ingredient-name h4 span {
+        font-size: 1.4rem !important;
+        font-weight: 500 !important
+    }
+
+    .key-ingredient-list .ingredient-item:last-child {
+        margin-bottom: 0
+    }
+
+    .ingredients-and-directions .time-summary .row .time {
+        margin-bottom: 1.4rem;
+        text-align: center;
+        width: 100%;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc
+    }
+
+    .ingredients-and-directions .time-summary .row .time .time-item dd,
+    .ingredients-and-directions .time-summary .row .time .time-item .h6 {
+        display: inline
+    }
+
+    .ingredients-and-directions .time-summary .row .time .time-item .h6 {
+        font-weight: 900
+    }
+
+    .ingredients-and-directions .time-summary .row .time .time-item .h6:after,
+    dt.h6:after {
+        content: ':'
+    }
+
+    .ingredients-and-directions .time-summary .row .time .time-item .h4 {
+        font-weight: 500
+    }
+
+    .ingredient-name.column-3,
+    .ingredient-name.column-2 {
+        width: auto;
+        display: inline-block
+    }
+
+    .ingredient-name.column-3 {
+        padding: 0 0 0 2px
+    }
+
+    .equipments {
+        margin: 0 0 0 2.5rem !important;
+        padding-top: 1rem !important;
+        padding-right: 0 !important
+    }
+
+    .equipments fieldset {
+        border-width: 1px
+    }
+
+    .equipments .equipment-items .equipment-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        padding: 10px 0 0 0
+    }
+
+    .equipments .equipment-items .equipment-container .equipment-item {
+        height: auto;
+        width: auto;
+        text-align: center;
+        padding: 0 0 2rem 0
+    }
+
+    .equipments .equipment-items .equipment-container .equipment-item img {
+        width: 30px !important
+    }
+
+    .equipments .equipment-items .equipment-header {
+        padding-left: 0 !important;
+        line-height: 2.25 !important
+    }
+
+    .equipments .equipment-items .equipment-header h4 {
+        font-size: 14px !important
+    }
+
+    .equipments .equipment-items .equipment-container h6 {
+        font-size: 11px !important;
+        display: block !important;
+        position: relative !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    .directions .direction-detail .direction-step {
+        position: absolute;
+        height: 3rem;
+        width: 3rem;
+        margin: .3rem 0 0;
+        z-index: 1;
+        border: 1px solid #333;
+        line-height: 3rem;
+        text-align: center;
+        display: inline-block
+    }
+
+    .directions .direction-detail .image-container {
+        grid-column-start: 2;
+        width: auto;
+        position: absolute
+    }
+
+    .directions .direction-detail .description p {
+        padding: 0 0 8px !important
+    }
+
+    .directions .direction-detail.divider .description {
+        font-size: 18px;
+        grid-column-start: 2
+    }
+
+    .step-by-step-directions {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        page-break-after: always;
+        break-after: page
+    }
+
+    .add-garnish {
+        border: 0
+    }
+
+    .nutritional-ingredient-comp .accordion-row-container {
+        padding-bottom: 0;
+        border-top: 1px solid #ccc
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts {
+        margin: auto;
+        min-width: auto;
+        width: 100%;
+        padding: .5rem;
+        border: 0;
+        margin-bottom: 2rem
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts>*,
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts>*>*,
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .nutrition-facts-head .h1 {
+        display: inline !important;
+        border: none !important;
+        top: auto !important;
+        padding: 0 !important
+    }
+
+    .nutritional-label .nutrition-facts .calories-amount,
+    .nutritional-label .nutrition-facts .calories-amount>div {
+        display: inline !important
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .nutrition-facts-head .h1 {
+        font-size: 16px;
+        display: block !important;
+        text-align: left !important;
+        margin-bottom: 12px
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .calories-amount .calories span:before {
+        content: ': ';
+        margin-left: -5px
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .border-top {
+        border-left: 1px solid #333 !important;
+        padding: 0 6px !important
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .calories-amount .calories span {
+        top: auto;
+        padding-left: 6px
+    }
+
+    .align-left-right {
+        display: inline-block
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .nutrition-facts-head .serving>strong strong,
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .nutrition-facts-head .serving .per-container strong {
+        padding: 0
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .nutrition-facts-daily-value:before {
+        content: '\a';
+        white-space: pre
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .level-3 {
+        margin-left: 0
+    }
+
+    .h5.ta-right {
+        width: 100%;
+        text-align: left !important
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts .nutrition-facts-head .serving .h4:after {
+        content: ' | '
+    }
+
+    .nutrition-facts-mineral .h5 span:before {
+        content: '('
+    }
+
+    .nutrition-facts-mineral .h5 span:after {
+        content: ')'
+    }
+
+    .nutrition-facts-daily-value .h5 strong:nth-child(2):before {
+        content: '('
+    }
+
+    .nutrition-facts-daily-value .h5 strong:nth-child(2):after {
+        content: ')'
+    }
+
+    .nutritional-ingredient-comp .row .nutritional-label .nutrition-facts>.nutrition-facts-foot {
+        display: none !important
+    }
+
+    .image-container.cropped-image:empty {
+        display: none !important
+    }
+
+    .acsb-trigger.acsb-trigger-size-medium {
+        display: none !important
+    }
+
+    .has-alert .hub-navigation-cmp {
+        top: 0
+    }
+
+    .carousel {
+        position: absolute;
+        right: 0;
+        max-width: 200px;
+        width: 100%;
+        bottom: 113%
+    }
+
+    .recipe-craft-overview .details {
+        padding: 0 0 26px 0
+    }
+
+    .row.pattern-background.has-background-img {
+        background-image: none !important
+    }
+
+    .acsb-trigger.acsb-ready {
+        display: none !important
+    }
+
+    .recipe-craft-overview {
+        padding-top: 0
+    }
+
+    .ingredients>ul:first-child {
+        padding: 1.5rem 1.5rem
+    }
+
+    .key-ingredient-list .ingredient-item .row {
+        display: block
+    }
+
+    .ingredient-amount.column-2,
+    .ingredient-amount.column-3 {
+        width: auto;
+        display: inline
+    }
+
+    .ingredient-name.column-3,
+    .ingredient-name.column-2 {
+        width: auto;
+        display: inline
+    }
+
+    .recipe-craft-overview h1 {
+        max-width: 66.6666%;
+        width: 100%
+    }
+
+    .key-ingredient-list .ingredient-item .row .ingredient-name h4 {
+        margin: 0;
+        display: inline
+    }
+}
